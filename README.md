@@ -25,15 +25,13 @@ This project provides a Python implementation of Shaffer's Rho calculation for i
 - **Kappa**: Cohen's kappa coefficient is a statistic that measures inter-rater agreement for qualitative (categorical) items. It is generally thought to be a more robust measure than simple percent agreement calculation, as kappa takes into account the agreement occurring by chance.
   
 - **Recall**: Also known as sensitivity, recall is the fraction of relevant instances that have been retrieved over the total amount of relevant instances. It is calculated as:
-  \[
+```math
   \text{Recall} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Negatives}}
-  \]
-
+```
 - **Precision**: Precision is the fraction of relevant instances among the retrieved instances. It is calculated as:
-  \[
+```math
   \text{Precision} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Positives}}
-  \]
-
+```
 - **Baserate**: The baserate in this context refers to the proportion of positive instances in the dataset. It is used in various calculations to adjust for the underlying prevalence of the condition or category being measured.
 
 ### How Shaffer's Rho Works

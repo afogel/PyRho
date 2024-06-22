@@ -1,0 +1,8 @@
+# Uncomment the line below if using Python < 3.7
+# dataclasses
+numpy<2.0.0
+pybind11
+pytest
+scipy
+setuptools
+typing
